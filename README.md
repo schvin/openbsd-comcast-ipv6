@@ -14,7 +14,7 @@ sudo pkg_add -rv ftp://ftp.openbsd.org/pub/OpenBSD/`uname -r`/packages/`uname -p
 * Save local gateway:
 
 ```
-netstat -rn | awk '/default/ && /:/' { print $2}' | sudo tee -a /etc/mygate
+netstat -rn | awk '/default/ && /:/ { print $2}' | sudo tee -a /etc/mygate
 ```
 
 * Reboot
