@@ -1,7 +1,9 @@
 openbsd-comcast-ipv6
 ====================
 
-Simple recipe for using an OpenBSD router on for native ipv6 on Comcast (tested in Washington, DC). Does not include any `pf` modifications you may need to make for your ruleset.
+Simple recipe for using native ipv6 on an OpenBSD router from Comcast. Tested in Washington, DC. 
+
+This recipe does *not* include any `pf` modifications you may need to make for your ruleset.
 
 * Install wide-dhcpv6:
 
