@@ -1,0 +1,2 @@
+/usr/local/sbin/dhcp6c EXTIF
+/usr/sbin/rtadvd INTIF
